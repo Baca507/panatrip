@@ -1,0 +1,94 @@
+
+#contenedor
+{
+ padding-top: 1%;
+font-size:300%;
+
+ }
+
+body
+{
+ background: white;
+ text-align: center;
+}
+
+h1
+{
+color: #00ACC1;
+}
+
+input.login, .button
+{
+margin: 1px;
+padding:2px;
+font-weight: bold;
+cursor:pointer;
+background:#00ACC1 repeat;
+border:1px solid #000000;
+font-family: Verdana;
+font-size: 30%;
+color: white;
+}
+
+
+nav {
+position : absolute;
+left : 0;
+width : 100%;
+background : #00ACC1;
+}
+
+nav ul {
+margin : 0 auto;
+width : 940px;
+list-style : none;
+}
+
+nav ul li {
+float : left;
+}
+
+nav ul li a {
+display : block;
+margin-right : 20px;
+width : 250px;
+font-size : 20px;
+font-family: verdana;
+line-height : 44px;
+text-align : center;
+text-decoration : none;
+color : white;
+}
+nav li:hover  {
+    background-color:#64bdd9;}
+
+nav ul li.selected a {
+color : #fff;
+}
+
+h1 { font-family: verdana;
+		padding-top: 180px; }
+
+.icon {position: relative;
+		padding: 10px;
+		margin-top: 50px;}
+
+.nature {padding-right: 80px; }
+.playa  {padding-right: 80px;}
+.hotel {padding-right: 80px;}
+#resultado
+{
+    height: 200px;
+    width: 25%;
+    background-color: black;
+	margin-left:5px;
+	margin-bottom:5px;
+	border: 1px;
+    display: inline-block;
+}
+img#perfil{
+  padding-left: 10px;
+}
+div#izquierda{
+  padding-left: 30px;
+}
